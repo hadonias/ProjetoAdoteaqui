@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing:border-box
 }
 
 .container {
@@ -50,4 +50,65 @@
     font-size: 20px;
     color: rgb(14, 1, 1);
     text-transform: uppercase; 
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imagens {
+    padding: 10px 10px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens img {
+    border: 5px solid rgb(253, 251, 251);
+    display: flex;
+    max-width: 100%;
+    width:400px;
+    height:400px;
+    object-fit: cover;
+}
+
+img:hover {
+    width:410px;
+    height:410px;
+    border: 5px solid cyan;
+    box-shadow: 0 0 5em black;
+}
+
+footer {
+	text-align: center;
+	background: rgb(240, 232, 232) ;
+	padding: 40px 0;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label ,form p {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 15px;
+	width: 30%;
 }
